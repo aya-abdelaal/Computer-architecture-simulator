@@ -9,9 +9,15 @@ It parses and performs these instructions:
 
 
 Pipelining pattern is as follows:
+
 – You fetch an instruction every 2 clock cycles starting from clock cycle 1.
+
 – An instruction stays in the Decode (ID) stage for 2 clock cycles.
+
 – An instruction stays in the Execute (EX) stage for 2 clock cycles.
+
 – An instruction stays in the Memory (MEM) stage for 1 clock cycle.
+
 – An instruction stays in the Write Back (WB) stage for 1 clock cycle.
+
 – You can not have the Instruction Fetch (IF) and Memory (MEM) stages working in parallel. Only one of them is active at a given clock cycle.
