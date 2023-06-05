@@ -4,6 +4,7 @@ Simulated a Von Neumann processor behavior and components using Java.
 It has an 11 bit indexed memory, 33 registers, and pipelines instructions using 5 stages.
 
 It parses and performs these instructions:
+
 ![image](https://github.com/aya-abdelaal/Computer-architecture-simulator/assets/67323302/87ebf2ce-70d7-432e-a01f-d17c5ccb2436)
 
 
